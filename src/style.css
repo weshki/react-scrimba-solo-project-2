@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    
+}
+
+h1 {
+    font-size: 25px;
+}
+
+nav {
+    height: 55px;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nav--logo {
+    width: 24px;
+    margin: 0px 7px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 18px 40px;
+    justify-content: left;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.geo {
+    display: flex;
+    align-items: center;
+}
+
+.geo-icon {
+    margin-right: 4px;
+}
+
+.country {
+    margin-right: 12px;
+}
+
+.dates {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+.img {
+    object-fit:cover;
+    width: 125px;
+    height:168px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+
